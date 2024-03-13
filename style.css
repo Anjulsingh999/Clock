@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
     user-select: none;
+    
 }
 
 :root
@@ -58,11 +59,13 @@
 #dark_mode
 {
     display: block;
+    pointer-events: none;
 }
 
 #light_mode
 {
     display: none;
+    pointer-events: none;
 }
 
 .display_container {
