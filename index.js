@@ -7,6 +7,8 @@ let curr_month = document.getElementById("month");
 let curr_year = document.getElementById("year");
 let curr_day = document.getElementById("day");
 
+
+
 let calender = new Date();
 console.log(calender)
 
